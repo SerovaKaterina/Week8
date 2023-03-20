@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&family=Roboto+Slab:wght@300;400&display=swap"
+      rel="stylesheet" />
+    <title>Виарушка</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="header__logo">
+          <img src="/assets/images/logo.png" alt="Логотип" />
+        </div>
+        <div class="block">
+          <button class="block__button block__button_basket">
+            Корзина
+            <img src="/assets/images/shopping.png" alt="Корзина" />
+          </button>
+        </div>
+      </div>
+    </header>
+    <main class="maincontainer2">
+      <h1 class="">Возможности</h1>
+      <div class="info">
+        <div class="info__card">
+          <img src="/assets/images/Illustration4.png" alt="Графика" />
+          <h2 class="h2">Без проводов</h2>
+          <p class="text">
+            Шлем работает без проводов. Не нужен ни компьютер, ни внешнее
+            питание, ни большое помещение, чтобы расставить трекеры.
+          </p>
+        </div>
+        <div class="info__card">
+          <img src="/assets/images/Illustration2.png" alt="Графика" />
+          <h2 class="h2">Без компьютера</h2>
+          <p class="text">
+            Современным VR-шлемам нужен мощный компьютер, чтобы запускать игры.
+            Наш шлем запускает игры из облака, поэтому просто наслаждайтесь.
+          </p>
+        </div>
+        <div class="info__card">
+          <img src="/assets/images/Illustration9.png" alt="Графика" />
+          <h2 class="h2">До 10 часов работы</h2>
+          <p class="text">
+            Несмотря на компактность и производительность, шлем может работать
+            до 10 часов — даже, если вы играете в самые ресурсоемкие игры.
+          </p>
+        </div>
+        <div class="info__card">
+          <h2 class="h2">Сотни игр</h2>
+          <p class="text">
+            Уже сейчас вам доступно более сотни игр: от высокобюджетных
+            ААА-тайтлов до маленьких независимых проектов. Скоро их станет еще
+            больше.
+          </p>
+        </div>
+        <div class="info__card">
+          <h2 class="h2">Почти даром</h2>
+          <p class="text">
+            По сравнению с другими VR-шлемами наш стоит гораздо меньше. И вы
+            существенно экономите на мощном компьютере.
+          </p>
+        </div>
+        <div class="info__card info__card_form">
+          <h2 class="white">Новости</h2>
+          <div>
+            <p><input class="input" type="search" placeholder="Эл почта" /></p>
+            <div class="block">
+              <button class="block__button block__button_basket">
+                Подписаться
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footercontainer">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li>
+              <a class="nav__item nav__item_color" href="#">Возможности</a>
+            </li>
+            <li>
+              <a class="nav__item nav__item_color" href="#">Где купить</a>
+            </li>
+            <li><a class="nav__item nav__item_color" href="#">Доставка</a></li>
+            <li><a class="nav__item nav__item_color" href="#">Помощь</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
