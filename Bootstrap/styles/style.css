@@ -1,0 +1,54 @@
+#header {
+    background-color: rgb(42, 45, 53);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.container-md {
+    width: 1000px;
+}
+.navbar-brand {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+.active {
+    color: rgb(255, 255, 255);
+}
+.active2 {
+    color: rgb(255, 255, 255, 0.5);
+}
+.maincontainer {
+    width: 950px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.about {
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    background-color: rgb(223, 223, 225);
+}
+.btn-primary {
+    margin-top: 20px;
+}
+.footer {
+    margin-top: 20px;
+    background-color: rgb(42, 45, 53);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.end {
+    padding-top: 30px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.row {
+    margin-top: 20px;
+}
+.card-title {
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+.card-text {
+    text-align: center;
+}
